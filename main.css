@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(to bottom right, grey, black);
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    font-family: "Futura"
+}
+.header {
+    color: white;
+}
+#gameOver {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+    left: 287px;
+}
+#liveOver {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+    left: 287px;
+}
+#playAgain {
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 162px;
+}
+#extra {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19px;
+    margin-right: 19px;
+    color: white;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 19px;
+}
+.card {
+    width: 155px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+}
+.soloCard {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 0px;
+    text-align: center;
+    line-height: 150px; 
+    margin: 5px;
+}
+.front {
+    position: absolute;
+    width: 155px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+    background-color: red;
+    cursor: pointer;
+}
+.back {
+    position: absolute;
+    width: 155px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+    background-color: white;
+}
+.header {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+.hide {
+    display: none;
+}
+#playNow {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-image: linear-gradient(to bottom right, rgb(116, 0, 0), red);
+    color: white;
+}

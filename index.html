@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/6398d9efb1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Memory Game</h1>
+        <button id="playNow">Play Now!</button>
+    </div>
+    <div id="gameOver">
+        <h1>GAME OVER! TIME IS UP!</h1>
+        <div></div>
+        <button id="playAgain" onClick="window.location.reload();">Play Again</button>
+    </div>
+    <div id="liveOver">
+        <h1>GAME OVER! OUT OF LIVES!</h1>
+        <div></div>
+        <button id="playAgain" onClick="window.location.reload();">Play Again</button>
+    </div>
+
+    <div id="extra">
+    <div class="lives">
+        <p></p>
+    </div>
+    <div class="timer">
+        <p>1:00</p>
+    </div>
+</div>
+<div class="cards">
+
+</div>
+</div>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
